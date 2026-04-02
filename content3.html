@@ -1,0 +1,93 @@
+
+
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Design Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="site-wrapper">
+        <header>
+            <div class="header-container">
+                <h1 class="logo">テーマ「薔薇」</h1>
+                
+                <button class="menu-toggle" id="menu-toggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+
+                <nav id="nav-menu">
+                    <ul>
+                        <li><a href="https://nisi1234567.github.io/2026/">Home</a></li>
+                        <li><a href="https://nisi1234567.github.io/2026/content1">コンテンツ１</a></li>
+                        <li><a href="https://nisi1234567.github.io/2026/content2">コンテンツ2</a></li>
+                        <li><a href="https://nisi1234567.github.io/2026/content3">コンテンツ3</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <main>
+            <section class="hero">
+                <div class="hero-text">
+
+             <div class="hero1-image">
+              <h1>ようこそ Portfolio へ</h1>
+             </div>
+
+                </div>
+            </section>
+
+            <section id="works" class="content-section">
+                <h3 class="section-title">Works</h3>
+                <div class="grid">
+                    <div class="card">
+                        <div class="img-container">
+                            <img src="images/3/IMG_1531.JPG">
+                        </div>
+                        <h4>pink rose</h4>
+                        <p>エレガント</p>
+                    </div>
+                    <div class="card">
+                        <div class="img-container">
+                            <img src="images/3/IMG_1534.JPG">
+                        </div>
+                        <h4>yellow rose</h4>
+                        <p>華やか</p>
+                    </div>
+                    <div class="card">
+                        <div class="img-container">
+                            <img src="images/3/IMG_1537.JPG">
+                        </div>
+                        <h4>red rose</h4>
+                        <p>植物園</p>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <div class="footer-content">
+                <p class="footer-logo">Design</p>
+                <p class="copyright">&copy; 2026 Portfolio. All rights reserved.</p>
+            </div>
+        </footer>
+    </div>
+
+    <script>
+        // スマホメニューの開閉
+        const toggle = document.getElementById('menu-toggle');
+        const nav = document.getElementById('nav-menu');
+
+        toggle.addEventListener('click', () => {
+            nav.classList.toggle('active');
+            toggle.classList.toggle('open');
+        });
+    </script>
+</body>
+</html>
