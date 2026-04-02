@@ -112,7 +112,7 @@ header {
 }
 
 /* --- ヒーローセクション コンテンツ2--- */
-.hero1-image {
+.hero2-image {
     width: 100%;
     height: 500px;
     background-image: url('images/2/IMG_1541.JPG');
@@ -122,7 +122,7 @@ header {
 }
 
 /* --- ヒーローセクション コンテンツ3--- */
-.hero1-image {
+.hero3-image {
     width: 100%;
     height: 500px;
     background-image: url('images/3/IMG_1535.JPG');
