@@ -111,6 +111,26 @@ header {
     color: white;              /* 上に載る文字を白くする */
 }
 
+/* --- ヒーローセクション コンテンツ2--- */
+.hero1-image {
+    width: 100%;
+    height: 500px;
+    background-image: url('images/2/IMG_1541.JPG');
+    background-size: cover;    /* 枠いっぱいに広げる */
+    background-position: center; /* 中央に合わせる */
+    color: white;              /* 上に載る文字を白くする */
+}
+
+/* --- ヒーローセクション コンテンツ3--- */
+.hero1-image {
+    width: 100%;
+    height: 500px;
+    background-image: url('images/3/IMG_1535.JPG');
+    background-size: cover;    /* 枠いっぱいに広げる */
+    background-position: center; /* 中央に合わせる */
+    color: white;              /* 上に載る文字を白くする */
+}
+
 
 .hero-content h2 {
     font-family: var(--font-serif);
